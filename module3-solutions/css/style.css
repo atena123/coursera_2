@@ -30,9 +30,19 @@ p {
     padding: 0 40px;
 }
 
+@media (min-width: 1201px) {
+    .navbar-light .navbar-nav .nav-link {
+        visibility: hidden;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
     .container {
         width: 80%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        visibility: hidden;
     }
 }
 
